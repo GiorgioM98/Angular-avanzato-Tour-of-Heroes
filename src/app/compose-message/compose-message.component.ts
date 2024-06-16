@@ -11,7 +11,7 @@ export class ComposeMessageComponent {
   message = '';
   sending = false;
 
-  constructor(private router: Router, private route: ActivatedRoute) {}
+  constructor(private router: Router, private route: ActivatedRoute) { }
 
   send() {
     this.sending = true;
@@ -30,13 +30,9 @@ export class ComposeMessageComponent {
   closePopup() {
     // Providing a `null` value to the named outlet
     // clears the contents of the named outlet
-    this.router.navigate([{outlets: {popup: null}}], {relativeTo: this.route.parent});
+    this.router.navigate([{ outlets: { popup: null } }], { relativeTo: this.route.parent });
   }
 }
 
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+

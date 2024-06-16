@@ -18,7 +18,7 @@ export class CrisisListComponent implements OnInit {
   constructor(
     private service: CrisisService,
     private route: ActivatedRoute
-  ) {}
+  ) { }
 
   ngOnInit() {
     this.crises$ = this.route.firstChild?.paramMap.pipe(
@@ -31,8 +31,3 @@ export class CrisisListComponent implements OnInit {
 }
 
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/

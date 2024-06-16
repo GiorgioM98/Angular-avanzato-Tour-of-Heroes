@@ -10,8 +10,8 @@ describe('ManageHeroesComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ManageHeroesComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(ManageHeroesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

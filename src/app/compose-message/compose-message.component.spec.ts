@@ -10,8 +10,8 @@ describe('ComposeMessageComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ComposeMessageComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(ComposeMessageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

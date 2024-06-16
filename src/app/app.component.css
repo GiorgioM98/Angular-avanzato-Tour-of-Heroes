@@ -2,9 +2,30 @@ nav a {
   padding: 1rem;
 }
 
+.footer {
+  display: block;
+  background-color: #369;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 1.5em !important;
+  border-top: 1px solid black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+}
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+.footer p {
+  font-size: 1em;
+}
+
+#linkedin {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+#linkedin:hover {
+  color: white;
+}

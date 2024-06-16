@@ -13,17 +13,10 @@ nav a {
 
 nav a:hover {
   color: white;
-  background-color: #42545C;
- }
+  background-color: #42545c;
+}
 
 nav a.active {
   background-color: black;
   color: white;
 }
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/

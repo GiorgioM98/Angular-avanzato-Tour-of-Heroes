@@ -1,10 +1,10 @@
-import {inject} from '@angular/core';
-import {ActivatedRouteSnapshot, ResolveFn, Router} from '@angular/router';
-import {EMPTY, of} from 'rxjs';
-import {mergeMap} from 'rxjs/operators';
+import { inject } from '@angular/core';
+import { ActivatedRouteSnapshot, ResolveFn, Router } from '@angular/router';
+import { EMPTY, of } from 'rxjs';
+import { mergeMap } from 'rxjs/operators';
 
-import {Crisis} from './crisis';
-import {CrisisService} from './crisis.service';
+import { Crisis } from './crisis';
+import { CrisisService } from './crisis.service';
 
 export const crisisDetailResolver: ResolveFn<Crisis> = (route: ActivatedRouteSnapshot) => {
   const router = inject(Router);
@@ -22,8 +22,4 @@ export const crisisDetailResolver: ResolveFn<Crisis> = (route: ActivatedRouteSna
 };
 
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+

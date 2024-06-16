@@ -18,7 +18,7 @@ export class CrisisDetailComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     public dialogService: DialogService
-  ) {}
+  ) { }
 
   ngOnInit() {
     this.route.data
@@ -59,8 +59,3 @@ export class CrisisDetailComponent implements OnInit {
 }
 
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
